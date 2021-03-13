@@ -1,27 +1,45 @@
-body {
-    background:url("http://www.sololearn.com/images/bg2.jpg");
-}
-nav {
-    padding: 50px 0;
-    min-width: 500px; 
-}
-nav ul {
-    background: linear-gradient(90deg, 
-     rgba(255, 255, 255, 0) 0%, 
-     rgba(255, 255, 255, 0.2) 25%, 
-     rgba(255, 255, 255, 0.2) 75%, 
-     rgba(255, 255, 255, 0) 100%);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
-     inset 0 0 1px rgba(255, 255, 255, 0.6);
-}
-nav ul li {
-    display: inline-block;
-}
-nav ul li a {
-    padding: 10px; 
-    color: #FFFFFF;
-    font-size: 18px;
-    font-family: Arial;
-    text-decoration: none;
+html{
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    background-attachment: local;
+    position:relative;
     display: block;
- }
+    text-align: center;
+    font-family:"Helvetica-neue", sans-serif;
+}
+ 
+class{
+    word-wrap:wrap;
+}
+
+
+.contact{
+    background-color: white;
+    border-style:dotted;
+    border-color:black;
+    border-radius:20;
+}
+
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.1;
+}
+#contacts {
+    text-align: center;
+}
+
+.para{
+    opacity:1.0;
+    transperancy:1.0;
+}
