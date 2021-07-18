@@ -212,7 +212,7 @@ body{
 }
 
 .bar.learning::before{
-  width: calc(50% - 10px);
+  width: calc(90% - 10px);
 }
 .bar.basic::before{
   width: calc(100% - 10px);
